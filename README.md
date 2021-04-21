@@ -13,9 +13,3 @@ npm install
 ```bash
 npm start
 ```
-
-### Run Server
-
-```bash
-npm run server
-```
