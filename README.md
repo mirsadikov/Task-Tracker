@@ -1,4 +1,4 @@
-# Simple React Application with local database
+# Task Tracker React
 
 ## How to run application
 
