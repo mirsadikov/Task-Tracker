@@ -11,20 +11,20 @@ function App() {
   const [tasks, setTasks] = useState([
     {
       id: 1,
-      text: 'Doctors Appointment',
-      day: 'May 5th at 2:30pm',
+      text: "Doctors Appointment",
+      day: "May 5th at 2:30pm",
       reminder: true,
     },
     {
       id: 2,
-      text: 'Meeting at School',
-      day: 'May 6th at 1:30pm',
+      text: "Meeting at School",
+      day: "May 6th at 1:30pm",
       reminder: true,
     },
     {
       id: 3,
-      text: 'Food Shopping',
-      day: 'May 7th at 12:30pm',
+      text: "Food Shopping",
+      day: "May 7th at 12:30pm",
       reminder: false,
     },
   ]);
@@ -57,8 +57,9 @@ function App() {
           onAdd={() => setShowAddTask(!showAddTask)}
           showAdd={showAddTask}
         />
+        <Route path="/about" component={About} />
         <Route
-          path="/"
+          path="/react/build/"
           exact
           render={(props) => (
             <>
@@ -75,7 +76,6 @@ function App() {
             </>
           )}
         />
-        <Route path="/about" component={About} />
         <Footer />
       </div>
     </Router>

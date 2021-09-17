@@ -1,0 +1,13 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install --prefix react && npm install --prefix vue && npm install --prefix angular",
+    "build:react": "npm run build --prefix react",
+    "build:vue": "npm run build --prefix vue",
+    "build:angular": "npm run build --prefix angular",
+    "build:all": "npm run build:react && npm run build:vue && npm run build:angular"
+  },
+  "license": "ISC"
+}
